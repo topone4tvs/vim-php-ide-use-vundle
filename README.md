@@ -21,6 +21,9 @@
     echo "/usr/local/lib" >> python2.7.conf | sudo mv python2.7.conf /etc/ld.so.conf.d/python2.7.conf  
     ldconfig  
     ```
+    安装完插件时，如果运行vim时，提示：ycm_client_support.[so|pyd|dll] and ycm_core.[so|pyd|dll] not detected;
+    cd ~/.vim/bundle/YouCompleteMe && ./install.sh --clang-completer
+    前提已经安装好 cmake 和 python，python-devel
     
 5. youcompleteme https://github.com/Valloric/YouCompleteMe/(cmake >=2.8)
     ```Shell
