@@ -95,3 +95,9 @@ nnoremap <C-k> <C-w><C-]><C-w>T
 let g:phpcomplete_min_num_of_chars_for_namespace_completion = 3
 
 nmap <F4> :Tab /=<CR>
+
+let mapleader=";"
+nmap <leader>w :w<CR>
+nmap <leader>wq :wq<CR>
+nmap <leader>q :q<CR>
+nmap <leader>q! :q!<CR>
