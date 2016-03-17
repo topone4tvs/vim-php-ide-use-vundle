@@ -87,7 +87,7 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 set tags+=~/tags,~/tags2
 
 " snips 作者
-let g:snips_author="wanghaibo@myhexin.com"
+let g:snips_author="chenbowen@myhexin.com"
 
 " open tags in newtab
 nnoremap <C-k> <C-w><C-]><C-w>T
